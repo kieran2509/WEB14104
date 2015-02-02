@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(100,175,100);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(240,240,240);
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(240,240,240);
+}
+
+.1 {
+    float:left;
+    position: relative;
+}
+.2 {
+    float:right;
+    position: relative;
+}
+
+img.fit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 80%;
+}
