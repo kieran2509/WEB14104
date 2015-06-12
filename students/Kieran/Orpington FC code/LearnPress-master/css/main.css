@@ -1,0 +1,127 @@
+/* YOUR STYLESHEETS UNDER HERE :) */
+
+#dropdown{
+    display: none;
+}
+
+@media (min-width: 500px){
+#mainnav {
+  text-decoration: none;
+  padding-right: 50px;
+  padding-left: 50px;
+  position: absolute;
+  
+  top: -90px;
+  left: 200px;
+  font-size: 2em; 
+}
+
+#orpfc {
+    size:100%;
+}
+
+    
+h1 {
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+}
+    
+@media (max-width: 922px){
+#mainnav {
+  display: none;
+  text-decoration: none;
+}
+    
+#dropdown{
+    display: block !important;
+    min-width: 200px;
+    position: absolute;
+    top: -90px;
+    left: 250px;
+    }
+
+h1 {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    left: 200px;
+}    
+}
+
+@media (max-width: 655px){
+h1 {
+    font-size: 3em;
+}
+}
+
+@media (max-width: 617px){
+h1 {
+    font-size: 2.5em;
+}
+}
+
+@media (max-width: 560px){
+h1 {
+    font-size: 2.3em;
+}
+}
+
+
+<!-- Footer -->
+
+footer {
+    position: absolute;
+    bottom: 0;
+} 
+#footnav {
+    background-color: #f8b834;
+    text-align: center;
+    width: 100%;
+    
+}
+
+#sponsors {
+    width: 100%;
+}
+
+#imgthumb {
+    width: 20%;
+}
+
+table {
+
+}
+
+#fill {
+    background-color: #f8b834;
+    border-radius: 10px;
+    
+}
+
+#fill2 {
+    background-color: #f8b834;
+    border-radius: 10px;
+    
+    
+}
+
+#size {
+    width:60%;
+
+}
+
+#size2 {
+    width:100%;
+
+}
+
+#pos {
+    display:flex;
+    align-items: center;
+}
+
+#right {
+    float: right;
+}
